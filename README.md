@@ -7,7 +7,23 @@
 ``` bash
 # GitHub 常用命令
 
-git --version #查看 git 版本信息
+git --version                  #查看 git 版本信息
+
+git log                        #查看提交历史记录
+
+git clone                      #克隆项目
+
+git pull                       #拉取提交
+
+git push                       #推送提交
+
+git reset --hard HEAD^         #回退到上个版本
+
+git reset --hard HEAD~n        #回退到前{{n}}次提交之前
+
+git reset --hard ID            #git版本回滚
+
+git push origin HEAD --force   #git强行推送至远程分支
 
 npm install
 
